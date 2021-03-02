@@ -1,0 +1,20 @@
+{% assign softskills = site.data.data.sidebar.softskills %}
+{% if softskills %}
+<div class="softskills-container container-block">
+
+  <h2 class="container-block-title">
+    softskills
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {%for responsible in softskills %}
+    <li>
+      {{ responsible.idiom }}
+      <span class="lang-desc">({{ responsible.level }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
+
