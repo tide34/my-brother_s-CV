@@ -39,11 +39,17 @@ sidebar:
       - item: Ice skating
         link:
 
+
+
+
 career-profile:
     title: Career Profile
     summary: |
       A self-motivated student is looking for Java course or job in an innovative company to 
       improve their knowledge and use it in practice.
+
+
+
 education:
     - degree: Bachelor in Computer Science
       university: BSUIR
@@ -56,6 +62,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+
+
+
 experiences:
     - role: java developer student
       time: 2020 - now
@@ -66,30 +75,26 @@ experiences:
     - role: system administrator assistant at 2nd European Games
       time: May 2019 - July 2019
       company: Synesis
+      details: | 
+        Maintenance technical infrastructure and mobile application to provide appropriate level of successful work internal services. Shift work.
+
+
 projects:
     title: Projects
     intro: >
       Here will be covered my experience in software development which i've gotten at university and training center projects. 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Autoservice check in system
+        tagline: "Create cli application to store information about customers, their cars and what kind of work will be done and how much it will cost."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Web application service
+        tagline: "Small client-server chat application."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Training tasks
+        link: "https://github.com/ArturKragel/JWD-Task01"
+        tagline: "Work with Java at training center course."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
