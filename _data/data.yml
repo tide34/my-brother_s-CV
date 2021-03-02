@@ -38,6 +38,11 @@ sidebar:
 
       - item: Ice skating
         link:
+    
+    softskills:
+      - item: Responsible
+      - item: Open-minded
+      - item: Team Player
 
 
 
@@ -98,6 +103,7 @@ projects:
 
 publications:
    
+
 
 skills:
     title: Skills &amp; Proficiency
