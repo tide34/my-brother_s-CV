@@ -88,11 +88,11 @@ projects:
         tagline: "Create cli application to store information about customers, their cars and what kind of work will be done and how much it will cost."
 
       - title: Web application service
-        tagline: "Small client-server chat application."
+        tagline: "Small client-server chat application. Chat allows users exchange messages and store it in a database for a mounth."
 
       - title: Training tasks
         link: "https://github.com/ArturKragel/JWD-Task01"
-        tagline: "Work with Java at training center course."
+        tagline: "Work with Java at Epam training center course."
 
 
 
@@ -115,6 +115,11 @@ skills:
       - name: Visual Studio & IntelliJ IDEA	
         level: 50%
 
+      - name: Windows OS
+        level: 90%
+
+      - name: Linux OS 
+        level: 30%
 
 footer: 
       - CustomSiteRoom©
