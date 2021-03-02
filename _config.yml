@@ -3,7 +3,7 @@
 # Site Settings
 title: Kragel Artur CV
 url: 'https://tide34.github.io'
-baseurl: '/my-brother_s-CV' 
+baseurl: '' 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: green # blue turquoise green berry orange ceramic
