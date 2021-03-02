@@ -66,13 +66,13 @@ education:
 
 
 experiences:
-    - role: java developer student
+    - role: Java developer student
       time: 2020 - now
       company: Epam training center, Minsk
       details: |
         Educating in EPAM software training center as java developer student. 
         As a result of course i have developed my own web application.
-    - role: system administrator assistant at 2nd European Games
+    - role: System administrator assistant at 2nd European Games
       time: May 2019 - July 2019
       company: Synesis
       details: | 
