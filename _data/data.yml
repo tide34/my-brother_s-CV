@@ -42,12 +42,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A self-motivated student is looking for Java course or job in an innovative company to 
+      improve their knowledge and use it in practice.
 education:
     - degree: Bachelor in Computer Science
       university: BSUIR
@@ -63,16 +59,17 @@ education:
 experiences:
     - role: java developer student
       time: 2020 - now
-      company: Startup Hubs, San Francisco
+      company: Epam training center, Minsk
       details: |
         Educating in EPAM software training center as java developer student. 
         As a result of course i have developed my own web application.
+    - role: system administrator assistant at 2nd European Games
+      time: May 2019 - July 2019
+      company: Synesis
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here will be covered my experience in software development which i've gotten at university and training center projects. 
     assignments:
       - title: Velocity
         link: "#hook"
