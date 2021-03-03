@@ -10,6 +10,4 @@ COPY . .
 
 EXPOSE 4000
 
-RUN bundle add webrick
-
 CMD ["bundle", "exec", "jekyll", "serve"]
