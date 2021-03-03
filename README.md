@@ -1,6 +1,6 @@
 # Information about this Jekyll CV template
 
-To **custome** sate by your own information you need to **edit _\_data/data.yml_** file.  
+To **customize** sate by your own information you need to **edit _\_data/data.yml_** file.  
 
 To **run** your CV page on **local machine** execute command:  
    Execute "bundle exec jekyll start 
