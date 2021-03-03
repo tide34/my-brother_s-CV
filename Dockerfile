@@ -1,13 +1,15 @@
-FROM ruby:3.0.0-alpine
+FROM ruby:3.0.0
 
-RUN gem install bundle jekyll
+WORKDIR /usr/src/app
 
-WORKDIR /app
+COPY Gemfile Gemfile.lock ./
 
-COPY * /app
+RUN bundle install
 
-RUN bundle add webrick
+COPY . .
 
 EXPOSE 4000
 
-CMD ["bundle", "exec", "jekyll", "build"]
+RUN bundle add webrick
+
+CMD ["bundle", "exec", "jekyll", "serve"]
