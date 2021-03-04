@@ -11,4 +11,5 @@ To **run** web page as **container** go by two way:
 2. Use **docker**:  
    - sudo docker build -t cvWebPage .  
    - sudo docker run -d -p 4000:4000 cvWebPage  
- 
+   
+Use docker pull **tide34/cv_jekyll** to download the image.  
