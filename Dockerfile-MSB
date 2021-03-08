@@ -1,0 +1,16 @@
+FROM ruby:3.0.0
+WORKDIR /usr/src/app
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
+COPY . .
+EXPOSE 4000
+CMD ["bundle", "exec", "jekyll", "serve"]
+
+FROM ruby:3.0.0-alpine
+ENV APP_HOME /app
+RUN mkdir $APP_HOME
+WORKDIR $APP_HOME
+COPY --from=0 /usr/src/app $APP_HOME
+RUN apk add --update build-base libffi-dev
+RUN bundle install
+CMD ["bundle", "exec", "jekyll", "serve"]
